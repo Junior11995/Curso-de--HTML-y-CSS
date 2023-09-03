@@ -4,6 +4,7 @@
 <head>
   <title>AppDeGatos</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon_io/android-chrome-192x192.png" type="image/x-icon">
 </head>
 
 <body>
@@ -27,9 +28,8 @@
         <li><a href="#10.Socialización">10.Socialización:</a></li>
       </ul>
       <hr>
-      <h3>Imagenes de Gatos:</h3>
-      <!-- Aqui esta la imagen en la Carpeta Imagenes -->
-      <img src="Imagenes/Gato.png" alt="Gato Relajado" width="50%">
+      <h3>Comida de gatos:</h3>
+
       <!-- Aqui esta la imagen de la URL -->
       <img src="https://bit.ly/imagen-de-queso-raton" alt="Comida de gatos">
       <hr>
@@ -39,10 +39,12 @@
         <li>Los perros</li>
         <li>Otros gatos</li>
       </ol>
+      <!-- Aqui esta la imagen en la Carpeta Imagenes -->
+      <img src="Imagenes/Gato.png" alt="Gato Relajado" width="50%">
       <!--Aqui se Crearan varias variantes de enlaces-->
       <!-- <ul> -->
-        <!--Este es un pequeño articulo sobre el cuidado de gatos.-->
-        <!-- <h2>Guía para el Cuidado de Gatos:</h2>
+      <!--Este es un pequeño articulo sobre el cuidado de gatos.-->
+      <!-- <h2>Guía para el Cuidado de Gatos:</h2>
         <h3 id="1.Alimentación">1.Alimentación:</h3>
         <ul>
           <div>
@@ -106,24 +108,30 @@
           consultar a un veterinario en caso de dudas o preocupaciones específicas sobre la salud de tu gato.</p>
         </div>
   </section> -->
-  <form action="/enviar-mensaje">
-    <label for="exterior"><input type="radio" id="exterior">exterior</label>
-    <label for="interior"><input type="radio" id="interior">interior</label>
-    <input type="text" placeholder="URL con la foto de tu gato" required>
-    <button type="submit">enviar</button>
-  </form>
-  <!--El atributo target="_blank" sirve para abrir una pagina en otra ventana, pero eso crea una brecha de seguridad 
+      <form action="/enviar-mensaje">
+        <!--Casillas de seleccion-->
+        <label for="exterior"><input type="radio" id="exterior" name="interior-exterior">afuera</label><br>
+        <label for="interior"><input type="radio" id="interior" name="interior-exterior">adentro</label><br>
+        <!--casillas de verificacion-->
+        <label for="Cariñoso"><input type="checkbox" name="personalidad" id="Cariñoso">Cariñoso</label>
+        <label for="Perezoso"><input type="checkbox" name="personalidad" id="Perezoso">Perezoso</label>
+        <label for="Energico"><input type="checkbox" name="personalidad" id="Energico">Energico</label><br>
+
+        <!--casilla para colocar la url-->
+        <input type="text" placeholder="URL + imagen de tu gato" required><br>
+
+        <!--Texto y boton de enviar-->
+        <button type="submit">enviar</button>
+      </form>
+      <!--El atributo target="_blank" sirve para abrir una pagina en otra ventana, pero eso crea una brecha de seguridad 
         llamada tabnabbing para evitarlo usamos otro atributo llamado rel="noopener noreferrer"-->
-  <li> <a href="https://twitter.com/Ramirezfinal" target="_blank" rel="noopener noreferrer">twitter</a> </li>
-  <li> <a href="https://www.instagram.com/ramirezfinal/" target="_blank" rel="noopener noreferrer ">instagram</a>
-  </li>
-  </ul>
-  <p>Haz clic aqui para descargar imagenes de gatos.</p>
-  <a href="https://www.youtube.com/watch?v=XqFR2lqBYPs&list=PL4ONm-ifcbQJHg52qGN9GbMAhqK-mC2-y" target="_blank"
-    rel="noopener noreferrer">
-    <p> Curso de HTML Y CSS youtube </p>
-  </a>
-  </main>
+    </main>
+    <footer>
+      <p>Haz clic aqui para descargar imagenes de gatos.</p>
+      <a href="https://www.youtube.com/watch?v=XqFR2lqBYPs&list=PL4ONm-ifcbQJHg52qGN9GbMAhqK-mC2-y" target="_blank"
+        rel="noopener noreferrer">
+        <p> Curso de HTML Y CSS youtube </p>
+    </footer>
 </body>
 
 </html>
