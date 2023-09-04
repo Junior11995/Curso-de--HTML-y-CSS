@@ -25,35 +25,55 @@
     <main>
       <!--Aqui hay una lista de enlaces a titulos de esta pagina-->
       <hr>
-      <h3>Comida de gatos:</h3>
+      <div>
+        <h3>Comida de gatos:</h3>
 
-      <!-- Aqui esta la imagen de la URL -->
-      <img src="https://bit.ly/imagen-de-queso-raton" alt="Comida de gatos">
-      <hr>
-      <h2>Cosas que odian los gatos</h2>
-      <ol>
-        <li>Los vegetales</li>
-        <li>Los perros</li>
-        <li>Otros gatos</li>
-      </ol>
-      <!-- Aqui esta la imagen en la Carpeta Imagenes -->
-      <img src="Imagenes/Gato.png" alt="Gato Relajado" width="50%">
+        <!-- Aqui esta la imagen de la URL -->
+        <img src="https://bit.ly/imagen-de-queso-raton" alt="Comida de gatos">
+        <hr>
+        <h2>Cosas que odian los gatos</h2>
+        <ol>
+          <li>Los vegetales</li>
+          <li>Los perros</li>
+          <li>Otros gatos</li>
+        </ol>
+        <!-- Aqui esta la imagen en la Carpeta Imagenes -->
+        <img src="Imagenes/Gato.png" alt="Gato Relajado" width="50%">
+      </div>
       <!-- Aqui se Crearan varias variantes de enlaces-->
       <!-- <ul> -->
       <!--Este es un pequeño articulo sobre el cuidado de gatos.-->
   </section>
   <form action="/enviar-mensaje">
     <!--Casillas de seleccion-->
-    <label for="exterior"><input type="radio" id="exterior" name="interior-exterior">afuera</label><br>
-    <label for="interior"><input type="radio" id="interior" name="interior-exterior">adentro</label><br>
+    <!--Tambien vamos a usar el elemento checkerd, que sirve para que una casilla se quede selecionada-->
+    <label for="exterior">
+      <h4>!Donde pasa el tiempo?</h4>
+      <input type="radio" id="exterior" name="interior-exterior" checked value="exterior">afuera
+    </label>
+    <br>
+    <label for="interior">
+      <input type="radio" id="interior" name="interior-exterior" value="interior">adentro
+    </label>
+    <br>
     <!--casillas de verificacion-->
-    <label for="Cariñoso"><input type="checkbox" name="personalidad" id="Cariñoso">Cariñoso</label>
-    <label for="Perezoso"><input type="checkbox" name="personalidad" id="Perezoso">Perezoso</label>
-    <label for="Energico"><input type="checkbox" name="personalidad" id="Energico">Energico</label><br>
-
+    <!--El elemento value sirve para mandarle informacion al servidor-->
+    <label for="cariñoso">
+      <h4>Personalidad de tu gato:</h4>
+      <input type="checkbox" name="personalidad" id="cariñoso" checked value="cariñoso">Cariñoso
+    </label>
+    <br>
+    <label for="perezoso">
+      <input type="checkbox" name="personalidad" id="perezoso" value="perezoso">Perezoso
+    </label>
+    <br>
+    <label for="energico">
+      <input type="checkbox" name="personalidad" id="energico" value="energico">Energico
+    </label>
+    <br>
     <!--casilla para colocar la url-->
-    <input type="text" placeholder="URL + imagen de tu gato" required><br>
-
+    <input type="text" placeholder="URL con la imagen de tu gato" required><br>
+    <br>
     <!--Texto y boton de enviar-->
     <button type="submit">enviar</button>
   </form>
@@ -61,7 +81,7 @@
         llamada tabnabbing para evitarlo usamos otro atributo llamado rel="noopener noreferrer"-->
   </main>
   <footer>
-    <p>Haz clic aqui para descargar imagenes de gatos.</p>
+    <p>Sin derechos de autor Poryecto de Junior Valera - en <a href="https://www.freecodecamp.org/espanol/Junior1995" id="footer">freeCodeCamp</a></p>
     <a href="https://www.youtube.com/watch?v=XqFR2lqBYPs&list=PL4ONm-ifcbQJHg52qGN9GbMAhqK-mC2-y" target="_blank"
       rel="noopener noreferrer">
       <p> Curso de HTML Y CSS youtube </p>
