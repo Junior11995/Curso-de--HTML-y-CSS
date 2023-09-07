@@ -9,13 +9,17 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 .politicas {
   text-align: center;
 }
 
 a {
   text-decoration-color: black;
-  text-decoration: none;
+ text-decoration: none;
 }
 
 a:hover {
@@ -24,4 +28,6 @@ a:hover {
 
 .logo {
 color: black;
+font-family: a=Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
