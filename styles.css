@@ -9,12 +9,21 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  font-size: 25px;
+/*borde de imagenes*/
+
+.bordeimg {
+  width: 300px;
+  border-color: brown;
+  border-style: solid;
 }
+
+/*h3 {
+  font-size: 25px;
+}*/
 
 .politicas {
   text-align: center;
+  font-size: 16px;
 }
 
 a {
@@ -23,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: blue;
 }
 
 .logo {
@@ -31,3 +40,6 @@ color: black;
 font-family: a=Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.camp {
+  color: black;
+}
