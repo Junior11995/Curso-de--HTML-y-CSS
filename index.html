@@ -12,19 +12,28 @@
   </h1>
   <section>
     <main>
-      <!--Aqui hay una lista de enlaces a titulos de esta pagina-->
-      <div>
-        <h3>Comida de gatos:</h3>
-
+      <!--Aqui va una lista de enlaces a titulos de esta pagina-->
+      <h3>Comida de gatos:</h3>
+      <!--Aqui va el DIV contenedro -->
+      <div class="fondo-contenedor1">
         <!-- Aqui esta la imagen de la URL -->
         <img src="https://bit.ly/imagen-de-queso-raton" class="bordeimg" alt="Comida de gatos">
+        <!--Si quiere darle un estilo a un solo objeto debe usar un id="objeto"-->
+        <h2>Borde redondeado</h2>
+        <img src="Imagenes/cat.jpg" alt="gato/jpg" width="70%" class="bordes-redondeados" id="bordes-redondeados">
         <hr>
-        <h2>Cosas que odian los gatos:</h2>
-        <ol>
+        <h2 id="cosas-gatos-odian">Cosas que odian los gatos:</h2>
+        <ol id="cosas-gatos-odian">
           <li>Los vegetales</li>
           <li>Los perros</li>
           <li><s>Otros gatos</s></li>
         </ol>
+        <h2 id="cosas-gatos-aman">Cosas que aman los gatos:</h2>
+        <ul id="cosas-gatos-aman">
+          <li>La Comida</li>
+          <li>Dormir</li>
+          <li>Jugar</li>
+        </ul>
         <!-- Aqui esta la imagen en la Carpeta Imagenes -->
         <img src="Imagenes/Gato.png" class="bordeimg" alt="Gato Relajado">
       </div>
@@ -63,7 +72,7 @@
     <input type="text" placeholder="URL con la imagen de tu gato" required><br>
     <br>
     <!--Texto y boton de enviar-->
-    <button type="submit">enviar</button>
+    <button type="submit" class="boton1">enviar</button>
   </form>
   <!--El atributo target="_blank" sirve para abrir una pagina en otra ventana, pero eso crea una brecha de seguridad 
         llamada tabnabbing para evitarlo usamos otro atributo llamado rel="noopener noreferrer"-->

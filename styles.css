@@ -9,12 +9,46 @@ h1 {
   text-align: center;
 }
 
+/* para usar un id en css debes comenzar con el #objeto */
+
+#bordes-redondeados {
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: aqua;
+  border-width: 10px;
+  width: 300px;
+}
+
+/*Trabajando con id y texto*/
+#cosas-gatos-odian {
+  background-color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#cosas-gatos-aman {
+  background-color: brown;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /*borde de imagenes*/
 
 .bordeimg {
   width: 300px;
   border-color: brown;
   border-style: solid;
+}
+
+/* bordes-redondeados para hacer bordes redondos*/
+
+/* .bordes-redondeados {
+  border-radius: 200px;
+  width: 300px;
+} */
+
+/* fondo-contenedor1 el contenedor del div de las imagenes*/
+
+.fondo-contenedor1 {
+  background-color: goldenrod;
 }
 
 /*h3 {
@@ -28,16 +62,21 @@ h1 {
 
 a {
   text-decoration-color: black;
- text-decoration: none;
+  text-decoration: none;
 }
 
-a:hover {
+a:active {
   color: blue;
 }
 
+.boton1:hover {
+  background-color: greenyellow;
+  border-color: greenyellow;
+}
+
 .logo {
-color: black;
-font-family: a=Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-family: a=Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .camp {
