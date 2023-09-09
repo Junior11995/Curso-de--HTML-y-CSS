@@ -1,0 +1,18 @@
+.prueba {
+    width: 300px;
+    padding: 5px;
+    background-color: fuchsia;
+    border-style: dashed;
+    border-color: aqua;
+    border-radius: 50%;
+}
+
+.fondo {
+    background-color: brown;
+}
+
+#color-titulo {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
