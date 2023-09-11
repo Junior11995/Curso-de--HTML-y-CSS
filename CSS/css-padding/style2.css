@@ -18,3 +18,27 @@
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+[class="selector1"] {
+    border-radius: 255px;
+}
+
+[class="selector2"] {
+    border-radius: 70px;
+}
+
+[class="lista1"] {
+    background-color: salmon;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+[class="lista2"] {
+    background-color: grey;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+[class="autores"] {
+    text-decoration: none;
+    color: black;
+}
