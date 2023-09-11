@@ -1,44 +1,45 @@
 .prueba {
-    margin: 25px;
-    padding: 25px;
-    border-width: 4px;
-    border-color: black;
-    border-style: solid;
+  margin: 25px;
+  padding: 25px;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
 }
 
 .fondo {
-    border-color: black;
-    border-style: solid;
-    border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
 }
 
 
 #color-titulo {
-    background-color: aliceblue;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 [class="selector1"] {
-    border-radius: 255px;
+  border-radius: 255px;
+  margin: 50px;
 }
 
 [class="selector2"] {
-    border-radius: 70px;
+  border-radius: 70px;
 }
 
 [class="lista1"] {
-    background-color: salmon;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: salmon;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 [class="lista2"] {
-    background-color: grey;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: grey;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 [class="autores"] {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
