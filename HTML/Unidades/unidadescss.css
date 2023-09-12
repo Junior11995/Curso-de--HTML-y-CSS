@@ -7,3 +7,7 @@ body {
     font-style: inherit;
     color: whitesmoke;
 }
+
+div {
+    color: aqua;
+}
