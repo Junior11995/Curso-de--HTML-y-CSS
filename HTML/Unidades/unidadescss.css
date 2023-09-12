@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+[class="colores"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    color: whitesmoke;
+}
