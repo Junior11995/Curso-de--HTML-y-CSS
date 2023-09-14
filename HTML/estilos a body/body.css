@@ -1,7 +1,30 @@
 body {
   background-color: salmon;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .final {
   text-align: center;
+}
+
+.enlace {
+  text-decoration: none;
+  color: moccasin;
+}
+
+/*los estilos viajajn de abajo hacia arriva*/
+a {
+  background-color: blueviolet;
+}
+
+/*Las clases siempre estan priorisadas frente a las atribustos ejem a*/
+.enlace1 {
+  text-decoration: none;
+  color: black;
+}
+
+/*Los id siempre estan priorisados frente a las clases*/
+
+#id-enlace-1 {
+  text-decoration: overline line-through;
 }
