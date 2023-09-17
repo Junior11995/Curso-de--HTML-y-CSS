@@ -1,9 +1,9 @@
-/* div {
+div {
   width: 500px;
   left: 500px;
   right: 60%;
   background-color: #f020f027;
-} */
+}
 
 .invisible {
   background-color: #f020f027;
@@ -13,6 +13,9 @@
 }
 .fondo1 {
   background-color: rgb(254, 125, 235);
+  width: 70vw;
+  left: 60vw;
+  right: 60vw;
 }
 
 img {
@@ -30,4 +33,7 @@ img {
 
 #fondos {
   background-color: black;
+  width: 70vw;
+  left: 60vw;
+  right: 60vw;
 }
