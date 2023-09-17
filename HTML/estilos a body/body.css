@@ -28,3 +28,11 @@ a {
 #id-enlace-1 {
   text-decoration: overline line-through;
 }
+
+.colores {
+  background-color: #fff;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: #000;
+}
