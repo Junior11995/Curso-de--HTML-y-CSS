@@ -14,7 +14,7 @@ body {
 
 /*los estilos viajajn de abajo hacia arriva*/
 a {
-  background-color: blueviolet;
+  background-color: #a00f;
 }
 
 /*Las clases siempre estan priorisadas frente a las atribustos ejem a*/
@@ -35,4 +35,11 @@ a {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: large;
   color: #000;
+}
+
+img {
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: groove;
+  border-color: #0ff;
 }
