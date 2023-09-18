@@ -1,5 +1,5 @@
 body {
-  background-color: salmon;
+  background-color: rgb(250, 128, 114);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 /*los estilos viajajn de abajo hacia arriva*/
 a {
-  background-color: #a00f;
+  background-color: rgba(170, 0, 0, 0.459);
 }
 
 /*Las clases siempre estan priorisadas frente a las atribustos ejem a*/
@@ -30,7 +30,7 @@ a {
 }
 
 .colores {
-  background-color: #fff;
+  background-color: rgb(250, 215, 155);
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: large;
@@ -41,5 +41,5 @@ img {
   border-radius: 50%;
   border-width: 10px;
   border-style: groove;
-  border-color: #0ff;
+  border-color: rgb(0, 255, 255);
 }
