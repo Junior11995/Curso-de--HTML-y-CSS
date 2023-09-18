@@ -3,18 +3,30 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Variables en css */
+
+[class="variables-css"] {
+  --variables-css: gray;
+  --variable-2: rgb(255, 225, 23);
+  background-color: var(--variables-css);
+}
+
 .final {
+  text-align: center;
+}
+
+h1 {
   text-align: center;
 }
 
 .enlace {
   text-decoration: none;
-  color: moccasin;
+  color: var(--variable-2);
 }
 
 /*los estilos viajajn de abajo hacia arriva*/
 a {
-  background-color: rgba(170, 0, 0, 0.459);
+  background-color: var(--variable-2);
 }
 
 /*Las clases siempre estan priorisadas frente a las atribustos ejem a*/
@@ -41,5 +53,8 @@ img {
   border-radius: 50%;
   border-width: 10px;
   border-style: groove;
-  border-color: rgb(0, 255, 255);
+  border-color: var(--variable-2);
+  display: block;
+  width: 300px;
+  margin: auto;
 }
