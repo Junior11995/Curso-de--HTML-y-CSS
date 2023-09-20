@@ -8,7 +8,7 @@ body {
 [class="variables-css"] {
   --variables-css: gray;
   --variable-2: rgb(255, 225, 23);
-  background-color: var(--variables-css);
+  background-color: var(--variable-css, red);
 }
 
 .final {
@@ -21,7 +21,7 @@ h1 {
 
 .enlace {
   text-decoration: none;
-  color: var(--variable-2);
+  color: var(--variabl-2, blue);
 }
 
 /*los estilos viajajn de abajo hacia arriva*/
