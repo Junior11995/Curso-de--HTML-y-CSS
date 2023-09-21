@@ -1,13 +1,17 @@
 body {
   background-color: rgb(250, 128, 114);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+:root {
+  --variable-2: rgb(235, 110, 123);
+  --variables-css: white;
 }
 
 /* Variables en css */
 
 [class="variables-css"] {
-  --variables-css: gray;
-  --variable-2: rgb(255, 225, 23);
   background-color: var(--variables-css, red);
 }
 
@@ -17,22 +21,23 @@ body {
 
 h1 {
   text-align: center;
+  color: var(--variable-2)
 }
 
 .enlace {
   text-decoration: none;
-  color: var(--variable-2, blue);
+  color: red;
 }
 
 /*los estilos viajajn de abajo hacia arriva*/
 a {
-  background-color: var(--variables-css, gray);
+  background-color: var(--variable-2);
 }
 
 /*Las clases siempre estan priorisadas frente a las atribustos ejem a*/
 .enlace1 {
   text-decoration: none;
-  color: black;
+  color: red;
 }
 
 /*Los id siempre estan priorisados frente a las clases*/
