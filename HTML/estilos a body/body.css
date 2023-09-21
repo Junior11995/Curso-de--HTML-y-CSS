@@ -1,9 +1,11 @@
 body {
   background-color: rgb(250, 128, 114);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
 }
 
+/*El :root, representa la pagina html en si,
+las herencias son de mayor a menor ejemplo html es mayor que body*/
 :root {
   --variable-2: rgb(235, 110, 123);
   --variables-css: white;
