@@ -1,5 +1,10 @@
+/* SI uno quiere definir dos colores con la misma variable
+solo hay que poner esa variable en un elemento de grado mayor al que queremos cambiar
+y asi tener colores distintos. */
+
 body {
   background-color: rgb(250, 128, 114);
+  --variable-2: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
